@@ -1,0 +1,32 @@
+body {
+    background-image: url("mixedMessagesBackground.jpg");
+}
+
+#box {
+    text-align: center;
+    padding: 75px;
+}
+
+h1 {
+    font-family: "Lucida Handwriting", Helvetica, sans-serif;
+    font-size: 72px;
+    color: blue;
+    alignment: center;
+}
+
+#button {
+	background:linear-gradient(to bottom, #e0b8d7 5%, #2aacbd 100%);
+	background-color:#e0b8d7;
+	border-radius:28px;
+	border:1px solid #e1e6e2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Lucida Handwriting", Helvetica, sans-serif;
+	font-size:28px;
+	font-weight:bold;
+	font-style:italic;
+	padding:17px 63px;
+	text-decoration:none;
+	text-shadow:0px -4px 5px #2f6627;
+}
