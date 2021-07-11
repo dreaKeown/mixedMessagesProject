@@ -10,14 +10,14 @@ function randomColor(colors) {
 }
 
 
-const messages = ["A life spent",
-                  "If you don't",
-                  "Challenges are what",
-                  "A mind that is stretched",
-                  "Most people do not listen",
-                  "If you don't",
-                  "The most common",
-                  "A person who never made a mistake"];
+const messages = ["A life spent making mistakes is not only more honorable but more useful than a life spent doing nothing. - George Bernard Shaw",
+                  "If you don't like something, change it. If you can't change it, change the way you think about it. - Mary Engelbreit",
+                  "Challenges are what make life interesting and overcoming them is what makes life meaningful. - Joshua J Marine",
+                  "A mind that is stretched by a new experience can never go back to it's old dimensions. - Oliver Wendell Holme",
+                  "Most people do not listen with the intent to understand, they listen with the intent to reply. - Stephen Covey",
+                  "If you don't like the road you're walking, start paving another one. - Dolly Parton",
+                  "The most common way people give up their power is by thinking they don't have any. - Alice Walker",
+                  "A person who never made a mistake never tried anything new"];
 
 function randomMessage(messages) {
     return messages[Math.floor(Math.random() * messages.length)];
