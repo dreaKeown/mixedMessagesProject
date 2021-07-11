@@ -24,6 +24,5 @@ function randomMessage(messages) {
 }
 
 function runMessageGenerator() {
-   document.getElementById("button").innerHTML = 
-(`Your lucky number is: ${randomNumber()}, your lucky color is: ${randomColor(colors)} and your inspirational message is: ${randomMessage(messages)} `);
+   document.getElementById("button").innerHTML= (`Your lucky number is: ${randomNumber()}, your lucky color is: ${randomColor(colors)} and your inspirational message is: ${randomMessage(messages)} `);
 }
