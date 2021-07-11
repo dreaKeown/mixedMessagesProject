@@ -23,4 +23,7 @@ function randomMessage(messages) {
     return messages[Math.floor(Math.random() * messages.length)];
 }
 
-console.log(`Your lucky number is: ${randomNumber()}, your lucky color is: ${randomColor(colors)} and your inspirational message is: ${randomMessage(messages)} `); //Test
+function runMessageGenerator() {
+   document.getElementById("button").innerHTML = 
+(`Your lucky number is: ${randomNumber()}, your lucky color is: ${randomColor(colors)} and your inspirational message is: ${randomMessage(messages)} `);
+}
