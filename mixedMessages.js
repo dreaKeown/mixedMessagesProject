@@ -17,7 +17,7 @@ const messages = ["'A life spent making mistakes is not only more honorable but 
                   "'Most people do not listen with the intent to understand, they listen with the intent to reply.' - Stephen Covey",
                   "'If you don't like the road you're walking, start paving another one.' - Dolly Parton",
                   "'The most common way people give up their power is by thinking they don't have any.' - Alice Walker",
-                  "'A person who never made a mistake never tried anything new. - Albert Einstein'"];
+                  "'A person who never made a mistake never tried anything new.' - Albert Einstein"];
 
 function randomMessage(messages) {
     return messages[Math.floor(Math.random() * messages.length)];
